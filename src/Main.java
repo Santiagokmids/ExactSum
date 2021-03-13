@@ -36,7 +36,7 @@ public class Main{
 			sort();
 			String peterMoney = br.readLine();
 			int money = Integer.parseInt(peterMoney);
-			bw.write(findNumber(money)+"\n"); 
+			bw.write(findNumber(money)+"\n\n"); 
 			books = br.readLine();
 			books = br.readLine();
 		}
